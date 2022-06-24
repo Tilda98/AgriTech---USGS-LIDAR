@@ -31,7 +31,12 @@
             "tag": "classify"
         },
         {
-            "filename": "iowa.laz",
+            "filename": "iowa.csv",
+            "tag": "writerscsv",
+            "type": "writers.text"
+        },
+        {
+            "filename": "iowa.las",
             "inputs": [ "classify" ],
             "tag": "writerslas",
             "type": "writers.las"
